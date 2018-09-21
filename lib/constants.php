@@ -47,7 +47,7 @@ define('BIN_PATH', $www_rootPath . '../bin');
 // lib folder in the www-root so its common to all your projects. If that is the
 // case you would just define it like the bin path without going up a level more:
 // define('LIB_PATH', $www_rootPath . 'lib');
-define('LIB_PATH', 'lib');
+define('BIN_PATH', 'lib');
 
 if (DEBUG) {
     print '<p>Domain: ' . DOMAIN;
