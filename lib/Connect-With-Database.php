@@ -8,7 +8,7 @@
 //
 print '<!-- make Database connections -->';
 
-require_once(LIB_PATH . '/Database.php');
+require_once(BIN_PATH . '/Database.php');
 
 // use this for SELECT statements
 $thisDatabaseReader = new Database(DATABASE_READER, DATABASE_READER_PWD, DATABASE_NAME);
@@ -17,9 +17,4 @@ $thisDatabaseReader = new Database(DATABASE_READER, DATABASE_READER_PWD, DATABAS
 $thisDatabaseWriter = new Database(DATABASE_WRITER, DATABASE_WRITER_PWD, DATABASE_NAME);
 
 print '<!-- Database connections comlete -->';
-<<<<<<< HEAD
-?>
 
-=======
-?>
->>>>>>> 14ae1332e7b3c7e7ea486cb2b70413b7de0dc912
